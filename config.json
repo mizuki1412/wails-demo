@@ -1,0 +1,12 @@
+{
+  "rest": {
+    "base": "server",
+    "port": 9000
+  },
+  "swagger": {
+    "title": "server",
+    "description": "server",
+    "basePath": "/server",
+    "version": "1.0.0"
+  }
+}

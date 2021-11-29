@@ -1,0 +1,1 @@
+import{i as o,j as a,o as t,k as n,t as s}from"./vendor.78aa9f06.js";const u={setup(l){const e=o(!1);return a(()=>{console.log("mounted page3")}),(r,c)=>(t(),n("div",null," page3 "+s(e.value),1))}};export{u as default};

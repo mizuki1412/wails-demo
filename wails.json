@@ -1,0 +1,10 @@
+{
+  "name": "wails-demo",
+  "outputfilename": "wails-demo",
+  "assetdir": "ui",
+  "wailsjsdir": "./frontend",
+  "author": {
+    "name": "yingchaojie",
+    "email": "yingchaojie@163.com"
+  }
+}
