@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/mizuki1412/go-core-kit/service/logkit"
 	"github.com/mizuki1412/go-core-kit/service/restkit"
+	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
 
 // App struct
@@ -27,6 +28,7 @@ func (b *App) startup(ctx context.Context) {
 func (b App) domReady(ctx context.Context) {
 	// Add your action here
 	logkit.Info("domready")
+	runtime.LogInfo(ctx, "Test")
 }
 
 // shutdown is called at application termination
