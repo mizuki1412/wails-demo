@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/lib/pq v1.10.4
-	github.com/mizuki1412/go-core-kit v1.0.6
+	github.com/mizuki1412/go-core-kit v1.0.9
 	github.com/wailsapp/wails/v2 v2.0.0-beta.22
 )
 
@@ -113,5 +113,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
-
-replace github.com/mizuki1412/go-core-kit v1.0.6 => ../../../mizuki/framework/core-kit
